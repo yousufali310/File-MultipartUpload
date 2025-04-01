@@ -31,7 +31,7 @@ const App: React.FC = () => {
       <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-8 bg-white p-6 rounded-lg shadow-lg">
         {/* Left: File Upload */}
         <div className="p-4 border-r border-gray-200">
-          <h2 className="text-xl font-semibold text-gray-700 mb-4">
+          <h2 className="text-xl font-semibold text-gray-700 mb-4 ">
             📤 Upload File
           </h2>
           <FileUpload onUploadSuccess={fetchFiles} />
